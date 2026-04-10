@@ -18,5 +18,17 @@ This project implements a real-time posture detection system using a webcam.
 - MediaPipe
 - Ultralytics YOLO
 
+## How to Run
+
+Install dependencies:
+pip install opencv-python mediapipe ultralytics
+
+Run single-person:
+python single_pose_mediapipe_live.py
+
+Run multi-person:
+python multi_pose_live_yolo.py
+
+
 ## Notes
 This project was developed as part of a final year undergraduate engineering project.
