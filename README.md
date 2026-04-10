@@ -1,18 +1,22 @@
-# Sitting Posture Detection Using Webcam
+# Sitting Posture Detection System
 
-This project implements a real-time posture detection system using a standard webcam.
+This project implements a real-time posture detection system using a webcam.
 
 ## Features
 - Single-person posture detection using MediaPipe Pose
-- Multi-person detection using YOLO Pose
+- Multi-person detection using YOLOv8 Pose
 - Head-Forward Angle (HF) and Shoulder Asymmetry (SA)
-- Real-time feedback and alert system
+- Real-time feedback and posture alert system
 
-## Technologies Used
+## Files
+- single_pose_mediapipe_live.py → Single-person posture detection
+- multi_pose_live_yolo.py → Multi-person detection system
+
+## Requirements
 - Python
 - OpenCV
 - MediaPipe
-- YOLOv8 Pose
+- Ultralytics YOLO
 
 ## Notes
-This repository contains the implementation used for an undergraduate final year project.
+This project was developed as part of a final year undergraduate engineering project.
